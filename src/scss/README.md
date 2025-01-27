@@ -1,3 +1,6 @@
+## Astro.config.mjsに記載する
+
+```scss
 // @ts-check
 import { defineConfig } from "astro/config";
 
@@ -21,3 +24,4 @@ export default defineConfig({
 
 	},
 });
+```

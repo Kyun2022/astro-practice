@@ -1,6 +1,6 @@
 ---
+import Nav from '@components/nav.astro';
 import BaseHead from './BaseHead.astro';
-
 
 ---
 
@@ -9,8 +9,11 @@ import BaseHead from './BaseHead.astro';
 <BaseHead  {...Astro.props}/>
 
 <body>
+   <Nav />
    <main>
       <slot />
    </main>
 </body>
 </html>
+
+
